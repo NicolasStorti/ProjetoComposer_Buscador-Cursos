@@ -1,0 +1,24 @@
+{
+    "name": "nicolasstorti/buscador-cursos",
+    "description": "Projeto que busca os cursos no site do senac",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Nicolasstorti\\BuscadorCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nicolas",
+            "email": "dev.nicolasstorti@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.7",
+        "symfony/dom-crawler": "^6.3",
+        "symfony/css-selector": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    }
+}
