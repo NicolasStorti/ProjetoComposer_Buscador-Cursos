@@ -1,3 +1,3 @@
-# Documentação do documento
+# Documentação do Componente
 
 Este componente é Pika!
